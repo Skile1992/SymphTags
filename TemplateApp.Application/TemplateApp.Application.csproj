@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TemplateApp.Persistance\TemplateApp.Persistance.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MediatR">
+      <HintPath>..\..\..\Users\Korisnik\.nuget\packages\mediatr\9.0.0\lib\netstandard2.1\MediatR.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
