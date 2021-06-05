@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SymphTags.Domain\SymphTags.Domain.csproj" />
+    <ProjectReference Include="..\SymphTags.Persistance\SymphTags.Persistance.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MediatR">
+      <HintPath>..\..\..\Users\Korisnik\.nuget\packages\mediatr\9.0.0\lib\netstandard2.1\MediatR.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.2.3" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.33" />
+    <PackageReference Include="HtmlSanitizer" Version="5.0.404" />
+  </ItemGroup>
+
+</Project>
